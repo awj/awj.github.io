@@ -3,6 +3,8 @@ layout: post
 title:  "Understanding MySQL Multiversion Concurrency Control"
 date:   2018-09-16 11:02:55 -0700
 categories: [database, mysql]
+excerpt: >-
+    In which we figure out how MySQL writes new data without showing it in old queries.
 ---
 
 MySQL, under the InnoDB storage engine, allows writes and reads of the same row to not interfere with each other. This is one of those features that we use so often it kind of gets taken for granted, but if you think about how you would build such a thing it’s a lot more detailed than it seems. Here, I am going to talk through how that is implemented, as well as some ramifications of the design.

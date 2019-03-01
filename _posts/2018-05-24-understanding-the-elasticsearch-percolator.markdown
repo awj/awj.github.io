@@ -3,6 +3,8 @@ layout: post
 title:  "Understanding the Elasticsearch Percolator"
 date:   2018-04-24 11:02:55 -0700
 categories: elasticsearch
+excerpt: >-
+    In which we flip search on its head and save *searches* then search with *documents*.
 ---
 
 Elasticsearch is a powerful, feature-packed tool. Their [documentation](https://www.elastic.co/guide/en/elasticsearch/reference/current/index.html) is great, but some pieces are a bit … out there. Beyond that, some of the functionality has changed significantly over the years, so third-party explanations might no longer be accurate.

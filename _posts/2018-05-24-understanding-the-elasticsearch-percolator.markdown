@@ -5,7 +5,7 @@ date:   2018-04-24 11:02:55 -0700
 categories: elasticsearch
 ---
 
-Elasticsearch is a powerful, feature-packed tool. Their [documentation]() is great, but some pieces are a bit … out there. Beyond that, some of the functionality has changed significantly over the years, so third-party explanations might no longer be accurate.
+Elasticsearch is a powerful, feature-packed tool. Their [documentation](https://www.elastic.co/guide/en/elasticsearch/reference/current/index.html) is great, but some pieces are a bit … out there. Beyond that, some of the functionality has changed significantly over the years, so third-party explanations might no longer be accurate.
 
 One fantastic feature that is both unusual and has changed a lot is percolation. I’m going to try to explain that feature, in the context of its current implementation (version 6.2.4). You’ll need a basic understanding of Elasticsearch, specifically [mappings](https://www.elastic.co/guide/en/elasticsearch/reference/6.2/mapping.html) and [search](https://www.elastic.co/guide/en/elasticsearch/reference/6.2/search-request-body.html).
 

@@ -9,7 +9,7 @@ Elasticsearch is a powerful, feature-packed tool. Their [documentation]() is gre
 
 One fantastic feature that is both unusual and has changed a lot is percolation. I’m going to try to explain that feature, in the context of its current implementation (version 6.2.4). You’ll need a basic understanding of Elasticsearch, specifically [mappings](https://www.elastic.co/guide/en/elasticsearch/reference/6.2/mapping.html) and [search](https://www.elastic.co/guide/en/elasticsearch/reference/6.2/search-request-body.html).
 
-The Concept
+# The Concept
 The normal workflow for Elasticsearch is to store documents (as JSON data) in an index, and execute searches (also JSON data) to ask the index about those documents.
 
 Succinctly, percolation reverses that. You store searches and use documents to ask the index about those searches. That’s true, but it’s not particularly actionable information. How percolators are structured has evolved over the years, to the point where we can give a more useful explanation.
@@ -18,7 +18,7 @@ Now, percolation revolves around the [percolator](https://www.elastic.co/guide/e
 
 The [Percolate Query](https://www.elastic.co/guide/en/elasticsearch/reference/6.2/query-dsl-percolate-query.html) takes one or more documents and limits results to ones whose stored searches match at least one document. When searching, the percolate query works like any other query element.
 
-In Depth
+# In Depth
 Under the hood, this is implemented in about the way you would expect: indexes with percolate fields keep a hidden (in memory) index. Documents listed in your percolate queries are first put in that index, then a normal query is executed against that index to see if the original percolate-field-bearing document matches.
 
 An important point to remember is that this hidden index gets its mappings from the original percolator index. So indexes used for percolate queries need to have mappings appropriate for the original data and the query document data.
@@ -29,7 +29,7 @@ Assuming the queries you are using were originally written for another index of 
 
 Also, because percolate fields are parsed into searches and saved at index time, you likely will need to reindex percolate documents after upgrading to take advantage of any optimizations to the system.
 
-An Example
+# An Example
 In my opinion, percolator examples are one of the prime contributors to making the tool hard to understand. They tend to be too simple, to the point where it’s hard to distinguish the parts.
 
 In this example, we’re going to build out an index of saved term and price searches for toys. The idea behind it is that users should be able to put in a search term and a max price, then get notified as soon as something matching that term goes below this price. Users should also be able to turn these notifications on and off.
@@ -108,7 +108,7 @@ At query time, we want to use both the plain object fields and the “special”
 
 Note that it combines percolate matching of a document against the queries stored in the field with regular term queries to limit which documents we test based on their enabled state and the user id.
 
-Some Additional Thoughts
+# Some Additional Thoughts
 Because of the work involved in running queries as part of resolving a percolate filter, you might need to pay extra attention to shards/replicas for a percolate index. Each shard reduces the number of queries any one machine may have to run, by reducing the number of search-bearing documents to evaluate.
 
 Percolate queries have an option to get documents from another index inside the cluster. This takes the form of a literal GET request, so there’s not much benefit in trying to keep shards from the two indices on the same nodes.

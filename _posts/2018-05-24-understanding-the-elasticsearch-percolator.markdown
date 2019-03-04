@@ -65,7 +65,7 @@ Here is what a document that represents a stored search would look like:
   "_id": 1,
   "search": {
     "user_id": 5,
-    "enabled": true",
+    "enabled": true,
     "query": {
       "bool": {
         "filter": [

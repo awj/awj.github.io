@@ -16,7 +16,7 @@ Chances are *also* pretty good that at least some of that caching is *making thi
 # First, applicable scope
 It's worth highlighting that I'm *only* talking about read-through caches here. In other words ones where we only "update" the cache after finding out that it's empty/expired while we're trying to fetch data from it. It's one of the most common forms of caching out there.
 
-The "standard" [Rails low-level cache](https://guides.rubyonrails.org/caching_with_rails.html#low-level-caching) is an example of this, as are most of the other forms of Rails caching, and the caching offered by most other web frameworks, plus your browser's cache.
+The "standard" [Rails low-level cache](https://guides.rubyonrails.org/caching_with_rails.html#low-level-caching) is an example of this, as are most of the other forms of Rails caching, and the caching offered by most other web frameworks.
 
 There are other caching options out there that might change the thought process, so if you're looking at one of those be careful just blindly using this logic.
 
@@ -28,7 +28,7 @@ This *the big one*. You're doing a bunch of work to obtain results that don't ch
 
 The goal here is to increase throughput and improve user experiences by making things faster.
 
-Although making things faster is *generally* an improvement for users, it's important to *qualify* how much of an improvement we're talking about. Optimizing a 10ms request into a 1ms request isn't particularly useful outside of some extreme corner cases. 10ms already feels *really* fast, so users won't know that we've done something to make it event faster.
+Although making things faster is *generally* an improvement for users, it's important to *qualify* how much of an improvement we're talking about. Optimizing a 10ms request into a 1ms request isn't particularly useful outside of some extreme corner cases. 10ms already *feels* fast, so users won't know that we've done something to make it event faster.
 
 Thankfully, there's been some study in this area.
 
@@ -46,6 +46,8 @@ Second, we'll look at [Neil Patel](https://neilpatel.com/blog/loading-time/) (as
 This is also a common reason for caching. It's subtly different from "efficiency" in that your goal isn't speed, but availability.
 
 You're trying to protect your data store from workloads it can't handle by avoiding some of the work.
+
+[**TODO** expand on this]
 
 # The costs of caching
 The largest "cost" of caching lies outside your servers. Caches are *very* hard to reason about, which makes them easy to get wrong, which can cause all kinds of havoc.

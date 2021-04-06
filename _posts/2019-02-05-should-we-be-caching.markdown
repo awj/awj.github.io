@@ -49,6 +49,22 @@ You're trying to protect your data store from workloads it can't handle by avoid
 
 [**TODO** expand on this]
 
+# Bad reasons for caching
+There are a few common cases where people *think* the solution to a problem is caching, when in reality it's somewhere between a Band-Aid and actually harmful.
+
+## Very slow queries
+You cannot use read-through caching to "get around" request timeouts. If you have cases where load times are approaching your timeouts, all a cache is going to do is make the error intermittent. That's better than nothing, but not actually fixing the whole problem.
+
+The good news is that in most cases, you can probably do something to speed up the queries. Often queries are either over-fetching data or filtering against columns that aren't properly indexed.
+
+## Slow view fragments
+Similar to the above about queries, sometimes people turn to caching to solve problems with request timeouts during view rendering. Again, this isn't going to actually solve the problem, just (maybe) push it off for a bit.
+
+Look for N+1 query behavior. Are you loading records one-request-at-a-time when you don't need to? Are you loading too much data in a page?
+
+## It "might" turn out to be slow
+Often people slap caching on top of things they *think* will be slow. Equally often, this is the wrong assumption. We'll explore the costs of caching a little more below, but it's worth remembering that caching is cheap but not free.
+
 # The costs of caching
 The largest "cost" of caching lies outside your servers. Caches are *very* hard to reason about, which makes them easy to get wrong, which can cause all kinds of havoc.
 
@@ -74,4 +90,6 @@ cached_query_time = (hit_rate * lookup_penalty) + (miss_rate * (lookup_penalty +
 The difference between `cached_query_time` and `query_time` is how much caching is helping (or hurting) you.
 
 # The complex caching equation
+[WTF did I intend here?]
+
 # Some caveats

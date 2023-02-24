@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Should we be caching"
-date:   2019-02-05 19:12:31 -0700
+date:   2022-02-24 15:41:31 -0700
 categories: [caching, rails, performance]
 excerpt: >-
     Or: how to talk yourself out of one of the hardest problems in computers

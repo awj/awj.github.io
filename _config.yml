@@ -33,8 +33,6 @@ plugins:
 
 google_analytics: UA-135457166-1
 
-
-
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.

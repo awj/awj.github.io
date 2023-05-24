@@ -90,7 +90,7 @@ It's easy to imagine navigating this in column order, but *other* orders seem li
 
 To play with this, we'll work on sample data taken from the [US Census Bureau City and Town Population Totals](https://www.census.gov/data/tables/time-series/demo/popest/2020s-total-cities-and-towns.html#v2022) This is a list of ~20k cities in the US with their estimated population.
 
-For the purposes of this post, I have [Cleaned it up](/static/city_populations_2022.csv) in a CSV, with state names extracted.
+For the purposes of this post, I have [Cleaned it up](https://awj.dev/static/city_populations_2022.csv) in a CSV, with state names extracted.
 
 We're going to assume here that the combination of the `city` and `state` columns makes a record unique. That isn't *strictly* true for this data, but again it makes it easier to work with.
 

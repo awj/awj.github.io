@@ -33,6 +33,14 @@ plugins:
 
 google_analytics: UA-135457166-1
 
+collections:
+  reimplement_indices:
+    output: true
+
+defaults:
+  - scope:
+      path: "static/reimplement_indices"
+      type: "reimplement_indices"
 
 
 # Exclude from processing.

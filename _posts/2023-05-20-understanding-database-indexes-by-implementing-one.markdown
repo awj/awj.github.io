@@ -85,7 +85,7 @@ It's easy to imagine navigating this in column order, but *other* orders seem li
 
 To play with this, we'll work on sample data taken from the [US Census Bureau City and Town Population Totals](https://www.census.gov/data/tables/time-series/demo/popest/2020s-total-cities-and-towns.html#v2022) This is a list of ~20k cities in the US with their estimated population.
 
-For the purposes of this post, I have [Cleaned it up](city_populations_2022.csv) in a CSV, with state names extracted.
+For the purposes of this post, I have [Cleaned it up](/static/city_populations_2022.csv) in a CSV, with state names extracted.
 
 We're going to assume here that the combination of the `city` and `state` columns makes a record unique.
 
@@ -265,5 +265,51 @@ STOP! Before you read further to look at the code, I want you to think about how
 * Try to use the original index
 * Try to use the population index
 
-That act of "deciding how to get at the data" is called *Query Planning*. It's an important part of how databases work. Get deep enough into database performance and you're going to have to become intimately familiar with your database's query planner. Examining that output is a key way to help debug slow queries and figure out what changes need to happen to make them not-slow queries.
+That act of "deciding how to get at the data" is called *Query Planning*. It's an important part of how databases work. Get deep enough into database performance and you're going to have to become intimately familiar with your database's query plan explanations. Examining that output is a key way to help debug slow queries and figure out what changes need to happen to make them not-slow queries.
 
+In this case we have only three options, and it's (probably) relatively easy to pick which one will be "the best". But let's think them through, in a rough approximation of how a query planner might look at this. If we put a "cost" on data reads and a "cost" on index reads, we can weigh our options by "total cost":
+
+* Walk all the rows: 20,000 data reads + 0 index reads
+* Use the original index: 20,000 data reads + 20,000 index reads
+* Use the population index: 0 data reads + 20,000 index reads (reminder: all needed data is in the index)
+
+It's generally accurate to assume that index reads are cheaper than data reads. So we'd want to "weight" those higher. The actual process inside a real database gets more complicated, but we'll just assume data reads are 5x as expensive.
+
+Sidenote: to make it accessible, this cost calculation is *wildly* naive. Real databases track a lot more information than "how many rows are there", and have more detailed insights about both the characteristics of the data and the specifics of how it is stored. Imagine you spent years refining this concept to fix every case where your cost predictions were wrong, and you're closer to how databases actually work.
+
+
+That gives us total costs of: 100,000 120,000 and 20,000 respectively. Which means we should go with the last option.
+
+Maybe that was easy for you to infer directly in this case, but when you step past this one simple idea of an index and start adding in lots of optimization options, the analysis gets significantly more difficult. 
+
+So, how do find per-state populations? That one again comes out kind of straightforward:
+
+```ruby
+result = {}
+
+population_index.content.each do |state, cities|
+  result[state] = 0
+
+  cities.content.values.each do |population|
+    result[state] += population.content.keys[0]
+  end
+end; nil
+
+result
+```
+
+# What we can learn about database indices
+
+Again, we have an example of using the index as a *source* of information rather than just a way to get information. It's worth reiterating this because it comes up so often in real world scenarios.
+
+We also, in our simulated query planning, saw a case where using an index was *slower* than reading the entire table. In practice, these scenarios are rare, but they can happen. Sometimes you'll look at a query plan and wonder why the database is ignoring an index, only to find that you're missing details where the index makes things *slower*. In this case that detail was "we're asking to read the entire table", but it's definitely not the only one.
+
+## Wrapping up
+
+Hopefully this helps a little to demistify database indices. As I mentioned at the start, the *actual* data structures vary significantly from what we're using here, but I've tried to keep the reasoning and thought processes consistent.
+
+You can get pretty far using this "wandering through nested hashes" view of how database indices work. Perhaps the biggest extension would be imagining a hash that also includes the ability to do inequality comparisons on keys. Like if a `Hash#lookup` method existed that took a Ruby `Range` as an argument and could efficiently give you the values where keys were inside of that range.
+
+If all of this has you interested in what the internals of an index *actually* look like, you can start by studying [B-trees](https://en.wikipedia.org/wiki/B-tree#:~:text=In%20computer%20science%2C%20a%20B,with%20more%20than%20two%20children.). They're probably the most commonly used data structure for this purpose. Many databases support alternative index types based around different data structures, which is where you really start getting deep into the benefits and drawbacks of each one.
+
+If you'd like to know more about query plans and how databases handle the topic of picking an algorithm to look up the data, that unfortunately gets pretty specific to the database involved. If you're using [MySQL](https://dev.mysql.com/doc/refman/8.0/en/execution-plan-information.html) or [PostgreSQL](https://www.postgresql.org/docs/current/using-explain.html) I've linked to the relevant sections of their documentation. Because databases are attempting to generate the best possible plan out of (potentially) a huge number of choices in a tiny fraction of time, query planning gets kind of hairy and detailed fast.

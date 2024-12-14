@@ -2,9 +2,8 @@
 title: "A Mystery in Ardea"
 layout: page
 blurb: "Solve a mystery on a remote island where nothing is quite as it seems."
+public: true
 ---
-
-# A Mystery in Ardea
 
 Solve a mystery on a remote island where nothing is quite as it seems.
 
@@ -22,7 +21,7 @@ Your guild has chartered a ship to deliver both your party and the town's suppli
 
 ## Character Requirements
 
-You should make a level 4 character with a background, skills, and abilities suitable for a mix of investigation and combat. In addition to normal class skills, as an agent of the Hands of Karn you are proficient in Investigation and one Charisma, Intelligence, or Wisdom based skill of your choice.
+You should make a level 4 character with a background, skills, and abilities suitable for a mix of investigation and combat. In addition to normal class skills, as an agent of the Hands of Karn you are proficient in Investigation or Perception and one Charisma, Intelligence, or Wisdom based skill of your choice.
 
 Although you *are* allowed to make a character who is originally from Ardea, this character will not have seen the island for several years.
 

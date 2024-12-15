@@ -1,7 +1,7 @@
 ---
 title: "A Mystery in Ardea"
 layout: page
-blurb: "Solve a mystery on a remote island where nothing is quite as it seems."
+description: "Solve a mystery on a remote island where nothing is quite as it seems."
 public: true
 ---
 

@@ -6,7 +6,7 @@ title: "DND"
 {% for page in adventures %}
 # [{{ page.title }}]({{ page.url }})
 
-{{ page.blurb }}
+{{ page.description }}
 
 {% endfor %}
 

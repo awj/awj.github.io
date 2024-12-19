@@ -52,6 +52,42 @@ Caranus, now one of the few living members of the community, packed up to bring 
 
 Lysandre, now unable to leave the boundary, began working on one last device. This would alter the memories of anyone who came to check on the island to conclude that the town had been wiped out by an earthquake, and the island was now broken and uninhabitable. Unfortunately for her, she hadn't quite finished when the party arrived.
 
+## Mid-adventure events
+
+### Arrival
+Lysandre is caught off guard by the party and is scrambling to figure out what to do.
+
+### Night 1
+If players are anywhere within the boundary, they see some kind of weird activity with people being up at all hours.
+
+Outside of the boundary, they have the encounter with Death's Avatar. If they venture back to the dock, the ship's captain is already dead and a nasty storm is brewing.
+
+If the players have encountered Gar, Lysandre kills him to get him to stop talking to them.
+
+### Day 2
+Today should see both further PC investigation of the boundary and interviews with townspeople. If the PCs haven't come across Gar, he seeks them out to give his details.
+
+Possibly resulting in a break-in of Lysandre's bookshop.
+
+Bad weather continues, preventing the players from trying to leave. So far the storms haven't hit the island directly, but it's not looking good.
+
+### Night 2
+Weird nighttime activity continues.
+
+If the players have talked to her, Karis investigates the boundary and disturbs one of the stones. If the players *have not* talked with Death's Avatar, she encounters it and gets all the way through its messages.
+
+Likely the PCs stage a break in at Lysandre's at this point.
+
+### Day 3
+Karis finds the PCs to relay whatever information she has from the previous night.
+
+Players notice that everyone they pass seems to be watching them.
+
+Players see one of the Revenant PCs fall and stand up with a clearly broken neck. Lysandre comes out soon to have a fight if they don't leave immediately.
+
+### Night 3
+Lysandre decides to ambush the players if they haven't confronted her yet. Enlists any remaining Revenants to help her. Karis joins the fight if things look bad.
+
 ## Notable areas
 
 ### Dock

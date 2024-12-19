@@ -16,9 +16,9 @@ Many guilds are little better than state-sponsored gangs. Some make a real effor
 ## Mood
 Overall theme we're starting with here is "unsettling". Magic nobody understands, nature itself behaving oddly outside of town, and nobody there seems to really be bothered. Odd outbursts from townspeople help to punctuate this mood and drive the plot forward. Death's own Avatar apparently wants to kill people.
 
-As things progress, we shift more into a horror mode. The one character they met who *does* seem bothered suddenly is behaving like everyone else. Seemingly the whole town does not eat or sleep. The area outside the boundary is clearly dangerous, trapping the players in it.
+As things progress, we shift more towards horror. The one character they met who *does* seem bothered suddenly is behaving like everyone else. Seemingly the whole town does not eat or sleep. The area outside the boundary is clearly dangerous, trapping the players in it.
 
-For the third "act", we go into true horror. The players encounter someone who *clearly should be dead*, but is both not dead and also not aware of their problem. The party realizes that *this* is what Death's Avatar was talking about, and that they need to help set things right.
+For the third "act", we go truly weird. The players encounter someone who *clearly should be dead*, but is both not dead and also not aware of their problem. The party realizes that *this* is what Death's Avatar was talking about, and that they need to help set things right.
 
 ## Adventure
 The party are all members of the Hands of Karn, one of the more reputable guilds in Caledon. The backwater island of Ardea, home to a single farming village, is now a month late in sending their ship to collect supplies. Given that this ship *also* was supposed to bring in the island's taxes, they have been tasked with going to Ardea to determine what is going on.
@@ -31,7 +31,7 @@ Their guild has chartered a ship to deliver both them and the town's supplies. T
 ### 2 years ago
 Lysandre and Vernalis retired from the Caledonian Navy, where they were part of a special unit tasked with securing artifacts that could be used in the country's defense. Vernalis had contracted a magical parasite, one which stripped him of his connection to his god and was slowly killing him. All attempts to remove it failed, and they left the Navy to pursue their dreams of a small town life together with what time he had left. Seeking to put their painful adventuring past behind them, they posed as a retired priest and bookseller.
 
-Lysandre secretly had stolen some ancient runecrafting materials, including Syndasmosite, an ore capable of blending together schools of magic in ways the world had forgotten. She hypothesized that a careful application of warding runes could stave off Death itself, something normally far beyond her powers. As Vernalis's health worsened, she launched a desperate attempt to save him by literally creating a barrier against Death.
+Lysandre secretly had stolen some ancient runecrafting materials, including Allocite, an ore capable of blending together schools of magic in ways the world had forgotten. She hypothesized that a careful application of warding runes could stave off Death itself, something normally far beyond her powers. As Vernalis's health worsened, she launched a desperate attempt to save him by literally creating a barrier against Death.
 
 ### 6 months ago
 Karis, separately, was discharged from her adventurer's guild. Broken by the horrors of watching her few friends die, she sought a life of solitude in the middle of nowhere. Always a bit of an outcast due to her Tiefling ancestry, her contact with members of the town was rare. She took up residence in a cabin in the woods, content in her solitude with nature.
@@ -41,7 +41,7 @@ Unfortunately for her, this coincided with Lysandre completing her death ward. D
 ### 5 months ago
 Vernalis, who had declined rapidly, finaly died. Because the ward prohibited Death's avatars from entry, he began a quasi existence as a Revenant. He was not dead, but also was not really alive. The ward fuelled his body, drawing life energy from outside to help sustain him.
 
-He was *deeply* angry with Lysandre for what she had done, and insisted she release the ward and allow him to pass away. Lysandre could not bring herself to do it, and instead used more Syndasmosite to craft what she dubbed a "Memory Auger" under the altar of the church. This device worked in tandem with the Death ward to continually altered a Revenant's memories. She initially planned to use it to prevent Vernalis realizing what had happened. She also was able to expend some of her own magical power to control Revenants under the effects of the device.
+He was *deeply* angry with Lysandre for what she had done, and insisted she release the ward and allow him to pass away. Lysandre could not bring herself to do it, and instead used more Allocite to craft what she dubbed a "Memory Auger" under the altar of the church. This device worked in tandem with the Death ward to continually altered a Revenant's memories. She initially planned to use it to prevent Vernalis realizing what had happened. She also was able to expend some of her own magical power to control Revenants under the effects of the device.
 
 The device, however, needed human souls to power it. Lysandre initially chose Barassus to sacrifice. Spilling his blood over the altar and down into the device. Because she killed him *inside* the ward's boundary, he also became a Revenant. Because he was a Revenant, he too could be controlled by the device.
 
@@ -62,6 +62,11 @@ The town of Ardea is exactly what you would expect for a remote backwater. Maybe
 
 If the players arrive at night, the town is surpisingly *busy* given its size and how little there is to do. Any characters stopped by the players state that there's no special occassion, and apparently it's just coincidence that so many people have decided to be out.
 
+### The Boundary
+This is the name for the perimeter of the effect of Lysandre's Death Ward. Life energy from outside of this area is being drained to fuel the increasing number of undead within it. Death's Avatar cannot pass this barrier, and has been venting its frustration on local widllife outside.
+
+The Boundary is clearly marked by the stark contrast of dead flora and fauna outside to living oens inside. Follow it for long enough and you discover black lava stones with mystical markings.
+
 ## Encounters
 
 ### Dock search
@@ -80,10 +85,10 @@ The body appears to be about four weeks dead. You would expect some amount of ca
 As you travel down the road, you realize that the forest is increasingly just ... dead. You don't hear signs of wildlife, and many of the plants are outright dead. There are no signs of disease on either the living or dead plants, and the live ones seem fully health.
 
 ### The Boundary
-Along the dock road, well outside of town, the party notices a point where it feels like there's a wall of warm air headed towards town.
+Along the dock road, well outside of town, the party notices a point where it feels like there's a wall of warm air headed towards town. There's a *remarkably* even line with dead plants on one side and live ones on the other, that lines up exactly with the point where the air grows warmer. 
 
 #### Passive Perception > 16, Active Perception > 13, 2nd trip across the boundary
-There's a *remarkably* even line with dead plants on one side and live ones on the other, that lines up exactly with the point where the air grows warmer. One bush that straddles the line is quite literally half alive and half dead.
+One bush that straddles the boundary line is quite literally half alive and half dead. A spooked deer crosses the boundary and *immediately* falls over dead.
 
 #### Scout along the boundary
 Come across a black lava stone with unknown sigils. Arcana > 10 or Detect Magic reveal an unusual mix of Necromancy, Transmutation, and Abjuration.
@@ -109,20 +114,22 @@ Gar is murdered in the church overnight, rises up and resumes normal activities.
 ### Barassus
 You find Barassus in his house, apparently reading. He's an older man, and seems a bit dottering. He confirms that Caranus left to bring in the taxes, and is surprised that it's been four weeks since. He directs the players to the inn as a place to stay, and says they can arrange to pick up supplies in the morning.
 
+If asked about the boundary, he says Lysandre has been researching it.
+
 As the players are leaving, Barassus shouts out from a brief moment of lucidity. He rants that something is *deeply* wrong. Nobody eats. Nobody sleeps. Nobody leaves. After this outburst, he goes back to dottering and does not recall these statements. On subsequent encounters he does not appear to remember meeting the players, but also has no further outbursts.
 
 ### Bookshop
 Lysandra is eating something when the players arrive. Willing to give a brief overview of her and Vernalis's history, but omits that they are former adventurers. Claims that this bookshop is more something to keep her busy than a real business, she's here because Vernalis is here.
 
-Blames Karis for the boundary.
+Blames Karis for what is going on with the boundary, and says she built it to keep out the creeping death that Karis brought to them. Says she thinks the rest of the town has been beguiled by Karis, and refuses to see the truth.
+
+#### Passive Perception > 18, Perception > 15, Investigation > 10 (if allowed)
+Table in the back has some books and a shawl haphazardly stacked on top of carving tools and a black lava stone block. If called out, Lysandra claims to have taken up carving, no business here.
 
 #### Sneak in investigation (Stealth > 10 overnight, or distract Lysandra)
 Granite block shows clear signs of arcane carving. These are similar to ones on other ward stones if encountered.
 
-(Investigation > 15): They find a bag w/ wizard's spell components in Lysandra's things.
-
-### Passive Perception > 18, Perception > 15, Investigation > 10 (if allowed)
-Table in the back has some books and a shawl haphazardly stacked on top of carving tools and a black lava stone block. If called out, Lysandra claims to have taken up carving, no business here.
+(Investigation > 15): They find a bag w/ wizard's spell components and what looks like a journal amongst Lysandra's things. The journal is in code, and has a magical trap (DC 10) on it. Investigation (>15) checks give progressively more of the backstory, roughly an hour of study each. By the next evening Lysandre discovers the missing/disturbed journal and immediately suspects the players.
 
 ### Church investigation
 Bits of blood under the altar. If Vernalis is present, he mutters "I can't believe she would dare". On follow up questioning he tries to pin "she" as Karis.
@@ -135,12 +142,19 @@ Destroying the device causes the Revenants in town to begin accessing their memo
 ### Tavern
 On first visit, Gar is here, and *very* drunk. He's afraid to range his pigs outside the boundary after his oldest boar died immediately after crossing it.
 
-Sanzir is happy to have business. Things have been especially slow the past few weeks. Confirms Karis's report that local wildlife started dying off outside what they've come to call "the boundary" about six weeks ago. She doesn't know where it came from, just that things are spooky outside of it.
+Sanzir is happy to have business. Things have been especially slow the past few weeks. Confirms Karis's report that local wildlife started dying off outside what they've come to call "the boundary" about six weeks ago. She doesn't know where it came from, just that things are spooky outside of it. Says she thinks Lysandre has been researching it.
 
 #### Overnight stay in the tavern
 Sanzir is up doing *something* at all hours of the night. Even if it's polishing a bar top that clearly doesn't need it. Claims she isn't able to sleep.
 
-### PCs Persuade Gar to take pigs out
+### Gar
+Initially encountered trying to drink away his worries over how weird things are in town. He's afraid to range his pigs outside the boundary after his oldest boar died immediately after crossing it.
+
+Drunkenly rambles about how nobody else sees that things are weird. Animals dying outside of the boundary. Vernalis suddenly being the picture of health after years of decline. The area inside the boundary going straight from mid-Fall to Spring, no matter what the temperature had to say. One by one people just decided that they just weren't concerned with much of this.
+
+He won't be much more use until he sobers up, if you can get him to do that. 
+
+#### PCs Persuade Gar to take pigs out
 (Persuasion > 15) While taking his pigs across the boundary, one of them dies again. If it's night time or a player has some mechanism for magical sight/senses they see that the Avatar of Death struck the animal.
 
 ### Revenant NPC injured

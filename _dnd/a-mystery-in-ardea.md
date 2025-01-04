@@ -9,9 +9,7 @@ Solve a mystery on a remote island where nothing is quite as it seems.
 
 ## Setting
 
-Caledon is an archipelago nation caught in the middle of two warring empires. The Caledonian King, absorbed in defending his nation during this conflict, has turned most administrative duties over to adventurer's guilds to act as regents for their islands. They are responsible for keeping peace and collecting taxes to fund the navy that keeps both empires at bay.
-
-Many guilds are little better than state-sponsored gangs. Some make a real effort to protect the people under their stewardship. Regardless, most of the islands of Caledon view themselves as being on their own.
+Caledon is an archipelago nation caught in the middle of two warring empires. The Caledonian King, absorbed in defending his nation during this conflict, has turned the enforcement of laws and collection of taxes over to adventurer's guilds, who act as regents for the islands assigned to their care. Many guilds are little better than state-sponsored gangs. Some make a real effort to protect the people under their stewardship. Regardless, most of the islands of Caledon view themselves as being on their own.
 
 One of the more reputable adventurer's guilds is the Hands of Karn. Led by Karn, a retired Caledonian Naval officer, the hands see themselves as a force for peace and stability in this increasingly lawless island nation.
 
@@ -19,13 +17,15 @@ One of the more reputable adventurer's guilds is the Hands of Karn. Led by Karn,
 
 Your party is an investigation team within the Hands of Karn. A pair of guild members sent to collect taxes from the backwater island of Ardea is now a week overdue. Attempts to Scry them indicate the group is still on the island, but have not given more useful details.
 
-The adventure starts as your party arrives at the island, tasked with finding the guild members and bringing them home.
+The adventure starts as your party arrives at the island, tasked with returning with the guild members and the taxes they were sent to collect.
 
 ## Character Requirements
 
-You should make a level 4 character with a background, skills, and abilities suitable for a mix of investigation and combat. In addition to normal class skills, as an agent of the Hands of Karn you are proficient in Investigation or Perception and one Charisma, Intelligence, or Wisdom based skill of your choice.
+You should make a level 4 character with a background, skills, and abilities suitable for a mix of investigation and combat. 
 
-Although you *are* allowed to make a character who is originally from Ardea, this character will not have seen the island for several years.
+In addition to normal class skills, as an agent of the Hands of Karn you are proficient in either Investigation or Perception. You also have proficiency in one of the following skills of your choice: Arcana, History, Nature, Religion, Animal Handling, Insight, Medicine, Survival, Deception, Intimidation, Performance, or Persuasion.
+
+Your character has not recently been to the island of Ardea.
 
 The core DnD books, plus Tasha's Cauldron of Everything and Xanathar’s Guide to Everything are available resources. Your character *must* be a member of the hands of Karn, but any available backgrounds are allowed.
 

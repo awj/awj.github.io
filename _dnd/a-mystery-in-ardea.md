@@ -1,11 +1,11 @@
 ---
 title: "A Mystery in Ardea"
 layout: page
-description: "Solve a mystery on a remote island where nothing is quite as it seems."
+description: "Solve a mystery on a remote island."
 public: true
 ---
 
-Solve a mystery on a remote island where nothing is quite as it seems.
+Solve a mystery on a remote island.
 
 ## Setting
 Caledon is an archipelago nation caught in the middle of two warring empires. The Caledonian King, absorbed in defending his nation during this conflict, has turned the enforcement of laws and collection of taxes over to adventurer's guilds, who act as regents for the islands assigned to their care. Many guilds are little better than state-sponsored gangs. Some make a real effort to protect the people under their stewardship. Regardless, most of the islands of Caledon view themselves as being on their own.

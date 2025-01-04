@@ -1,11 +1,14 @@
 ---
-title: "A Mystery in Ardea"
+title: "Untitled Mystery"
 layout: page
-description: "Solve a mystery on a remote island where nothing is quite as it seems."
+description: "[Work in Progress] Solve a mystery on a remote island where nothing is quite as it seems."
 public: true
 ---
 
 Solve a mystery on a remote island where nothing is quite as it seems.
+
+# NOTE
+This was originally intended to a be a one-shot campaign, but quickly grew into something that easily could last 2-3 sessions. I like the concept, and would love to finish it, but it's unfinished and not playable as a one-shot at this point.
 
 ## Setting
 

@@ -1,11 +1,11 @@
 ---
 title: "DM guide for 'A Mystery in Ardea'"
 layout: page
-description: "Solve a mystery on a remote island where nothing is quite as it seems."
+description: "Solve a mystery on a remote island."
 public: false
 ---
 
-Solve a mystery on a remote island where nothing is quite as it seems.
+Solve a mystery on a remote island.
 
 # Setting
 Caledon is an archipelago nation caught in the middle of two warring empires. The Caledonian King, absorbed in defending his nation during this conflict, has turned most administrative duties over to adventurer's guilds to act as regents for their islands. They are responsible for keeping peace and collecting taxes to fund the navy that keeps both empires at bay.
@@ -18,7 +18,7 @@ One of the more reputable adventurer's guilds is the Hands of Karn. Led by Karn,
 We're mostly going for "spooky" here, kind of like a more serious Scooby Doo. Some kind of local spirit appears to be killing the wildlife, and seems to have also gone after the prior adventurer's group. Most of the town seems absolutely convinced that this spirit is the culprit, having grown up with legends about it.
 
 ## Adventure
-Your party is an investigation team within the Hands of Karn. A group of guild members sent to collect taxes from the backwater island of Ardea is now a week overdue. Attempts to Scry them indicate the group is still on the island, but have not given more useful details.
+Your party is an investigation team within the Hands of Karn. A pair of guild members sent to collect taxes from the backwater island of Ardea is now a week overdue. Attempts to Scry them indicate the group is still on the island, but have not given more useful details.
 
 The adventure starts as your party arrives at the island, tasked with finding the guild members and bringing them home.
 

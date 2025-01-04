@@ -17,7 +17,7 @@ One of the more reputable adventurer's guilds is the Hands of Karn. Led by Karn,
 
 ## Adventure
 
-Your party is an investigation team within the Hands of Karn. A group of guild members sent to collect taxes from the backwater island of Ardea is now a week overdue. Attempts to Scry them indicate the group is still on the island, but have not given more useful details.
+Your party is an investigation team within the Hands of Karn. A pair of guild members sent to collect taxes from the backwater island of Ardea is now a week overdue. Attempts to Scry them indicate the group is still on the island, but have not given more useful details.
 
 The adventure starts as your party arrives at the island, tasked with finding the guild members and bringing them home.
 

@@ -118,6 +118,8 @@ More details in [Death's Shade Stakeout Encounter](#deaths-shade-stakeout-encoun
 
 Lysandre figures out the party is investigating in depth, and tries to throw them off by having them "deal with" the shade.
 
+If the party is stalled, Gar fetches them in town after seeing the Shade near his flock.
+
 The party sees Death's Shade kill one of Gar's sheep with a scyth. Gar cries out as seeing this, which causes the Shade to briefly attack the party before flying off into the woods at high speed.
 
 Detect Magic: they determine that the skeleton was raised with animate dead

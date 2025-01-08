@@ -57,7 +57,9 @@ Here's a list of all the clues that can be found, and which out of who/why/how t
 *Where* washed into a cave below the cliff altar
 *Questions* How, Who, Why
 
-The bodies of the prior guild party *and* the older corpose of an unknown naval officer are all found washed into this cave. Only one of the party members has their Hand of Karn seal. All three bodies bear scorch marks similar to those found on local wildlife killed by the Death's Shade.
+The bodies of the prior guild party *and* the older corpose of an unknown naval officer are all found in a cave below the cliff altar. Only one of the party members has their Hand of Karn seal.
+
+All three bodies bear scorch marks similar to those found on local wildlife killed by the Death's Shade. The prior guild members appear to have survived the fall and succumb to wounds unable to escape the cave. (hence Scry working in advance on now-dead party members)
 
 The dowsing rod will point them towards this. If the party doesn't think to use it a local child tells them she found something awful in the cave, but doesn't want to go back for fear that the Death's Shade will come for her. 
 
@@ -75,9 +77,9 @@ Surprisingly well stocked for the size of the town. She apparently loves her inc
 
 Lysandre gives the party a breakdown of the local legend of the Death's Shade, and claims she's been researching a way to try to put it back to rest.
 
-Investigation (15): tucked away in a corner, you find a pack that seems to belong to the naval investigator. Lysandre hastily claims she found it during her research into the Death's Shade. She thinks the investigator may have angered the Shade, and suspects she might be able to use some of his items to help put it to rest.
+Perception or Investigation (15): tucked away in a corner, you find a pack that seems to belong to the naval investigator. Lysandre hastily claims she found it during her research into the Death's Shade. She thinks the investigator may have angered the Shade, and suspects she might be able to use some of his items to help put it to rest.
 
-Investigation (20): peeking out from a high shelf, or maybe within any hidden areas they rummage through, they find a cloak with a Caledonian Naval insignia. The cloak is clearly too small to fit the deceased officer.
+Perception or Investigation (20): peeking out from a high shelf, or maybe within any hidden areas they rummage through, they find a cloak with a Caledonian Naval insignia. The cloak is clearly too small to fit the deceased officer.
 
 ## Lysandre's shop - backroom
 *Where* living quarters / backroom to the bookshop
@@ -95,16 +97,6 @@ Barassus is able to identify the naval officer as an investigator who came throu
 
 He also states that the taxes *were* loaded onto the other party's ship, which is no longer at the dock.
 
-## Death's Shade Stakeout
-*Where* the forests outside of town
-*Questions* Who, How
-
-The party sees Death's Shade kill one of Gar's sheep by apparently blasting it with some kind of dark energy that threw it back. Gar cries out as seeing this, which causes the Shade to briefly attack the party before flying off into the woods at high speed.
-
-Examining the sheep shows the same scorch marks they find on the cliffside bodies. There's a lingering smell that seems familiar from town, which they put together as Lysandre's shop if they return to it.
-
-Investigation (15): they find bootprints along the path the shade took to approach the sheep. No bootprints are seen along the path the Shade ran away.
-
 ## Sanzir - checking in at the inn
 *Where* the inn
 *Questions* Why, How
@@ -117,6 +109,20 @@ Offhandedly mentions that the naval investigator said he was close to finishing 
 *NOTE* only use this if the party is stalled
 
 She has an encoded journal the military investigator had hidden in his room. Deciphering it (Investigation: 15) gives the description of Lysandre as the runaway naval member. 
+
+## Death's Shade Stakeout
+*Where* the forests outside of town
+*Questions* Who, How
+
+More details in [Death's Shade Stakeout Encounter](#deaths-shade-stakeout-encounter)
+
+Lysandre figures out the party is investigating in depth, and tries to throw them off by having them "deal with" the shade.
+
+The party sees Death's Shade kill one of Gar's sheep with a scyth. Gar cries out as seeing this, which causes the Shade to briefly attack the party before flying off into the woods at high speed.
+
+Detect Magic: they determine that the skeleton was raised with animate dead
+Perception (15): There's a lingering smell on the cloak that seems familiar from town, which they put together as Lysandre's shop if they return to it.
+Investigation (20): Taking the cloak into town and asking around finds someone who recognizes it as belonging to Lysandre
 
 ## The Missing Taxes
 *Where* dock
@@ -157,8 +163,28 @@ A sturdy half orc with green skin and dark hair. Gar is a bit shy, and very worr
 
 # Encounters
 
-## Death's Shade stakeout
-Party sees the shade kill one of Gar's sheep. If confronted they battle the shade (Lysandre), who primarily uses Repelling Blast. After taking some damage, the Shade uses Fly to escape. She is using her Form of Dread for this, with those abilities in play as well.
+## Death's Shade stakeout encounter
+Party sees a figure in a dark kill cloak one of Gar's sheep. Gar cries out at it, alerting it to initiate combat.
+
+The "shade" is actually a skeleton that Lysandre raised, dressed in a cloak, and is directing to act as a fake shade.
+
+Stats:
+AC 13
+HP 65
+Speed 30ft
+
+str 15 (+2) dex 14 (+2) con 15 (+2) int 6 (-2) wis 8 (-1) cha 5 (-3)
+
+Saving throws: Str +4, Con +3, Wis +2
+Damage Vulnerability: bludgeoning
+Damage Immunity: poison
+Conditon Immunity: exhaustion, poisoned
+Senses: darkvision 60ft, passive Perception 9
+
+Actions
+* Multiattack: the shade makes one Scyth attack and one claw attack
+* Scyth +5 hit, reach 10ft, Hit: 1d10+2 slashing
+* Claw +4 hit, range 5ft, Hit: 2d4+2 piercing
 
 ## Bookshop Battle
 After the party figures out that Lysandre is behind all of this, she runs to her shop. This functions as a lair, with Lysandre able to manipulate the books in the following ways:

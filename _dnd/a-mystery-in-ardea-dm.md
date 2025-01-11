@@ -36,7 +36,7 @@ Your character will have normal starting equipment for their class/background, 2
 The party has been sent with a divination rod that points to the magical seals used to identify all members of the Hands of Karn.
 
 # Mystery Breakdown
-Another party from the same adventurer's guild was sent to the island, and did not return. They were murdered by being pushed off a cliff, as was an unidentified Caledonian Naval officer. This all appears to be the work of Death's Shade, a vengeful spirit of local legend that appears to have grown active recently.
+Another party from the same adventurer's guild was sent to the island, and did not return. They were murdered by being pushed off a cliff, as was an unidentified Caledonian Naval officer. This all appears to be the work of Wailing Reaper, a vengeful spirit of local legend that appears to have grown active recently.
 
 ## Who did it
 Lysandre, the lady who runs a bookstore in town.
@@ -45,10 +45,10 @@ Lysandre, the lady who runs a bookstore in town.
 Lysandre is secretly a Warlock who stole an enormous amount of gold and ran away from the Caledonian Navy. The unidentified naval officer was an investigator who managed to track her down. She suspected that the prior adventuring party was sent to apprehend her, and ambushed them first.
 
 ## How
-She has been using her Warlock abilities to pose as the Death's Shade. Under the guise of investigating this myth, she lured the prior adventuring party out of town and tossed them off a cliff. She used a similar ploy to deal with the naval investigator sent to pursue her.
+She has been using her Warlock abilities to pose as the Wailing Reaper. Under the guise of investigating this myth, she lured the prior adventuring party out of town and tossed them off a cliff. She used a similar ploy to deal with the naval investigator sent to pursue her.
 
 ## Lysandre's plot
-Since the prior party was killed, she has been posing as the Death's Shade and killing town livestock and local wildlife. She intends to try to hold a fake ceremony to quiet the spirit, which she hopes will convince the party that no further digging needs to happen. If that fails, she will flee to her bookshop which functions as a Lair for a final standoff.
+Since the prior party was killed, she has been posing as the Wailing Reaper and killing town livestock and local wildlife. She intends to try to hold a fake ceremony to quiet the spirit, which she hopes will convince the party that no further digging needs to happen. If that fails, she will flee to her bookshop which functions as a Lair for a final standoff.
 
 # Clues
 Here's a list of all the clues that can be found, and which out of who/why/how they help answer.
@@ -59,15 +59,15 @@ Here's a list of all the clues that can be found, and which out of who/why/how t
 
 The bodies of the prior guild party *and* the older corpose of an unknown naval officer are all found in a cave below the cliff altar. Only one of the party members has their Hand of Karn seal.
 
-All three bodies bear scorch marks similar to those found on local wildlife killed by the Death's Shade. The prior guild members appear to have survived the fall and succumb to wounds unable to escape the cave. (hence Scry working in advance on now-dead party members)
+All three bodies bear scorch marks similar to those found on local wildlife killed by the Wailing Reaper. The prior guild members appear to have survived the fall and succumb to wounds unable to escape the cave. (hence Scry working in advance on now-dead party members)
 
-The dowsing rod will point them towards this. If the party doesn't think to use it a local child tells them she found something awful in the cave, but doesn't want to go back for fear that the Death's Shade will come for her. 
+The dowsing rod will point them towards this. If the party doesn't think to use it a local child tells them she found something awful in the cave, but doesn't want to go back for fear that the Wailing Reaper will come for her. 
 
 ## Gar's drunken rant
 *Where* first trip to the inn, or he finds them on day two
 *Questions* How, Who
 
-Gar rants that he saw the Death's Shade murder the party members by blasting them off the cliff. Dark cloak, skull for a face. He thinks the shade knows he was spying on it, and has been killing his sheep ever since. He tells them Lysandre is working on a way to put the shade to rest.
+Gar rants that he saw the Wailing Reaper murder the party members by blasting them off the cliff. Dark cloak, skull for a face. He thinks the reaper knows he was spying on it, and has been killing his sheep ever since. He tells them Lysandre is working on a way to put the reaper to rest.
 
 ## Lysandre's shop
 *Where* bookshop in town
@@ -75,9 +75,9 @@ Gar rants that he saw the Death's Shade murder the party members by blasting the
 
 Surprisingly well stocked for the size of the town. She apparently loves her incense, a compelling mix of bergamot and leather.
 
-Lysandre gives the party a breakdown of the local legend of the Death's Shade, and claims she's been researching a way to try to put it back to rest.
+Lysandre gives the party a breakdown of the local legend of the Wailing Reaper, and claims she's been researching a way to try to put it back to rest.
 
-Perception or Investigation (15): tucked away in a corner, you find a pack that seems to belong to the naval investigator. Lysandre hastily claims she found it during her research into the Death's Shade. She thinks the investigator may have angered the Shade, and suspects she might be able to use some of his items to help put it to rest.
+Perception or Investigation (15): tucked away in a corner, you find a pack that seems to belong to the naval investigator. Lysandre hastily claims she found it during her research into the Wailing Reaper. She thinks the investigator may have angered the Reaper, and suspects she might be able to use some of his items to help put it to rest.
 
 Perception or Investigation (20): peeking out from a high shelf, or maybe within any hidden areas they rummage through, they find a cloak with a Caledonian Naval insignia. The cloak is clearly too small to fit the deceased officer.
 
@@ -110,17 +110,17 @@ Offhandedly mentions that the naval investigator said he was close to finishing 
 
 She has an encoded journal the military investigator had hidden in his room. Deciphering it (Investigation: 15) gives the description of Lysandre as the runaway naval member. 
 
-## Death's Shade Stakeout
+## Wailing Reaper Stakeout
 *Where* the forests outside of town
 *Questions* Who, How
 
-More details in [Death's Shade Stakeout Encounter](#deaths-shade-stakeout-encounter)
+More details in [Wailing Reaper Stakeout Encounter](#wailing-reaper-stakeout-encounter)
 
-Lysandre figures out the party is investigating in depth, and tries to throw them off by having them "deal with" the shade.
+Lysandre figures out the party is investigating in depth, and tries to throw them off by having them "deal with" the reaper.
 
-If the party is stalled, Gar fetches them in town after seeing the Shade near his flock.
+If the party is stalled, Gar fetches them in town after seeing the Reaper near his flock.
 
-The party sees Death's Shade kill one of Gar's sheep with a scyth. Gar cries out as seeing this, which causes the Shade to briefly attack the party before flying off into the woods at high speed.
+The party sees Wailing Reaper kill one of Gar's sheep with a scyth. Gar cries out as seeing this, which causes the Reaper to attack the party.
 
 Detect Magic: they determine that the skeleton was raised with animate dead
 Perception (15): There's a lingering smell on the cloak that seems familiar from town, which they put together as Lysandre's shop if they return to it.
@@ -130,7 +130,7 @@ Investigation (20): Taking the cloak into town and asking around finds someone w
 *Where* dock
 *Questions* Who
 
-Barassus does confirm that the island did give its taxes to the original collectors, and that they were loaded onto their ship. The ship is now gone, and it's unlikely that the Death's Shade decided to cut it loose.
+Barassus does confirm that the island did give its taxes to the original collectors, and that they were loaded onto their ship. The ship is now gone, and it's unlikely that the Wailing Reaper decided to cut it loose.
 
 # Notable locations
 
@@ -138,10 +138,10 @@ Barassus does confirm that the island did give its taxes to the original collect
 A small dock built into a small cove. There's room for at most two small ships at a time. There's a road through the woods leading towards town.
 
 ## Inn (The Ram's Crest)
-A cozy little rustic inn and pub. Sanzir has strung orange and clove all over. These smells pervade the place, mixing with the buttery scent of her famous meat pies.
+A cozy little rustic inn and pub, more focused on the "pub" than the "inn". Sanzir has strung orange and clove all over. These smells pervade the place, mixing with the buttery scent of her famous meat pies.
 
 ## Lysandre's Books
-A sizable shop, the shelves absolutely teeming with books. The place is clearly more ambitious than the town warrants. Over in a corner an incense burner fills the space with the smell of bergamot and leather.
+A sizable shop converted from an old warehouse. The shelves are absolutely teeming with books. The place is clearly more ambitious than the town warrants. Over in a corner an incense burner fills the space with the smell of bergamot and leather.
 
 ## Barassus's House
 Barassus lives in a tiny cottage, overflowing with knick-knacks and curios. Every space, including all but one chair, is covered. It smells faintly of orange and sandalwood, mixed in with the dust of far too many collectables.
@@ -165,10 +165,10 @@ A sturdy half orc with green skin and dark hair. Gar is a bit shy, and very worr
 
 # Encounters
 
-## Death's Shade stakeout encounter
+## Wailing Reaper stakeout encounter
 Party sees a figure in a dark kill cloak one of Gar's sheep. Gar cries out at it, alerting it to initiate combat.
 
-The "shade" is actually a skeleton that Lysandre raised, dressed in a cloak, and is directing to act as a fake shade.
+The "reaper" is actually a skeleton that Lysandre raised, dressed in a cloak, and is directing to act as a fake reaper.
 
 Stats:
 AC 13
@@ -184,7 +184,7 @@ Conditon Immunity: exhaustion, poisoned
 Senses: darkvision 60ft, passive Perception 9
 
 Actions
-* Multiattack: the shade makes one Scyth attack and one claw attack
+* Multiattack: the reaper makes one Scyth attack and one claw attack
 * Scyth +5 hit, reach 10ft, Hit: 1d10+2 slashing
 * Claw +4 hit, range 5ft, Hit: 2d4+2 piercing
 

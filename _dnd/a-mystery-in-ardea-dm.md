@@ -165,6 +165,35 @@ A sturdy half orc with green skin and dark hair. Gar is a bit shy, and very worr
 
 # Encounters
 
+## Anodea, the Wailing Reaper legend
+Likely the players will hear this from Lysandre, but they may end up getting it from another NPC.
+
+> About a century ago a woman lived in town named Anodea. She fell in love with a man named Garrett, and they soon married.
+>
+> Like now, like seemingly always, there was a war going on. Shortly after their marriage, before the two could start their life together, Garrett was conscripted.
+>
+> Anodea waited for her husband to come home. Every day she would go to Higgin's Lookout to watch for his return. She eagerly met each ship at the dock; hoping to see him, or at least a letter.
+>
+> As the months dragged on and hope dwindled, grief took it's place. She grew angry. First at the navy that took her husband, then at the ships that brought no word of him, finally at the town of Ardea itself. Rage and grief consumed her. Some say her pain itself was greater than her body could bear. She died ten years after he left.
+>
+> But death wasn't the end. Shortly after she died, her spirit began roaming the island at night. She would alternate between crying and lashing out at any living being she encountered. Priests and Mages rarely visit this island, and the ones that did weren't able to put her spirit to rest.
+>
+> Years went by with Anodea's spirit terrorizing the town. The people came to call her "The Wailing Reaper", and began to fear going out of town at night. Then, five years after her death, her spirit stopped appearing.
+>
+> Up until a few weeks ago, when she again began stalking the night outside of town.
+
+---
+
+If Lysandre is recounting the story (or asked about it) here's her addition to it.
+
+> I've been researching Anodea's story since her spirit reappeared. She seemed to start up again after that naval investigator came through, wandering about outside of town near the inn. When he left (Insight vs Deception), her spirit resumed her nighttime attacks.
+
+If the party succeeds on an Insight check, Lysandre admits that she took his things from his room after he disappeared. She claims she was hoping to find something in his things that could help put the spirit to rest.
+
+If the party confronts her with the fact they found the naval investigator *and* the tax collectors murdered in a cave, one of two things happens:
+* If they've covered most of the clues, or have already done the stakeout fight, she initiates combat (either in her shop or by retreating to her shop)
+* If they haven't covered most of the clues, she says that she mentioned this legend in talking to them but didn't expect them to try to investigate it. She suggests they try to confront the spirit and put it to rest.
+
 ## Wailing Reaper stakeout encounter
 Party sees a figure in a dark kill cloak one of Gar's sheep. Gar cries out at it, alerting it to initiate combat.
 
@@ -191,8 +220,10 @@ Actions
 ## Bookshop Battle
 After the party figures out that Lysandre is behind all of this, she runs to her shop. This functions as a lair, with Lysandre able to manipulate the books in the following ways:
 
+She gets 1 legendary action per round.
+
 * Legendary action: A book flies at one of the players, she performs a spell attack for 1d4 bludgeoning damage.
-* Lair action: (2/Day) she can surround herself in a flying cylinder of books that functions similar to the Mirror Image spell. Fire based spells will hit a minimum of two of the "duplicates" worth of books. Attacks that hit a duplicate always hit.
+* Lair action: (3/Day) she surrounds herself in a flying cylinder of books that disrupts attacks. Attacks have disadvantage against her until the first attack roll fails. Attacks with fire damage set the books on fire, dealing 1d6 damage to her and everyone within 5 feet. When she performs an attack roll a d20, on a 5 or lower she disrupts the books.
 * Legendary action: (PC against a shelf) An avalanche of books flies off the shelf. The PC needs to make a Dexterity save against her spell save DC, with failure dealing 2d4 bludgeoning damage and knocking the character prone. A successful save results in half damage and moves the character to a nearby open space.
 * Loose books shift ahead of her to allow free movement.
 
@@ -201,3 +232,53 @@ Piles of books from her shelf avalanche ability will move underneath players cro
 Lysandre focuses on using her Repelling Blast to knock PCs into shelves and try to hit them with books. If cornered she will use Misty Step to try to escape.
 
 After the first round she adopts her Form of Dread. After the second round she uses her book shield for the first time.
+
+### Lysandre stat block
+Stats:
+AC 12
+HP 66
+
+Warlock lvl 6
+str 9 (-1) dex 12 (+1) con 16 (+3) int 16 (+3) wis 12 (+1) cha 19 (+4)
+
+Saving throws: Wis +5, Cha +7
+
+Spell save dc: 15
+Spell attack bonus: +7
+
+Pact of the Tome
+
+### Patron
+Archfey
+
+* Fey Presence - 1/rest action to force Wis save in 10ft cube around you, failures are charmed or frightened until next turn
+* Misty Escape - 1/rest reaction to turn invisible and teleport up to 60ft, invisibility lasts until start of next turn or you attack/cast
+
+### Invocations
+Aspect of the Moon - no need to sleep, cannot be put to sleep
+Repelling Blast - Eldritch Blast can push back 10ft
+Undying Servitude - cast Animate Dead 1/day without using a spell slot
+
+### Spells
+#### Cantrips
+- Eldritch Blast
+- Mage Hand
+- Minor Illusion
+
+Pact of Tome
+- Vicious Mockery
+- Gust
+- Friends
+
+#### Lvl 1
+- Hex
+- Sleep
+- Comprehend Languages
+
+#### Lvl 2
+- Phantasmal Force
+- Suggestion
+
+#### Lvl 3
+- Dispel Magic
+- Gaseous Form

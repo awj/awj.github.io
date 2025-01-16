@@ -57,17 +57,26 @@ Here's a list of all the clues that can be found, and which out of who/why/how t
 *Where* washed into a cave below the cliff altar
 *Questions* How, Who, Why
 
-The bodies of the prior guild party *and* the older corpose of an unknown naval officer are all found in a cave below the cliff altar. Only one of the party members has their Hand of Karn seal.
+The bodies of the prior guild party *and* the older corpose is wearing a naval uniform. They are all found in a cave below the cliff altar. Only one of the party members has their Hand of Karn seal.
 
 All three bodies bear scorch marks similar to those found on local wildlife killed by the Wailing Reaper. The prior guild members appear to have survived the fall and succumb to wounds unable to escape the cave. (hence Scry working in advance on now-dead party members)
 
-The dowsing rod will point them towards this. If the party doesn't think to use it a local child tells them she found something awful in the cave, but doesn't want to go back for fear that the Wailing Reaper will come for her. 
+The dowsing rod will point them towards this. If the party doesn't think to use it a local child tells them she found something awful in the cave, but doesn't want to go back for fear that the Wailing Reaper will come for her.
+
+History (20): They identify the insignia on the naval officer's corpose as a naval investigator.
+Nature (10): The tide patterns washed everyone into this cave. Based on the contents of the cave it apparently fills up with debris until a storm clears it out. It's likely that nobody knows or expected these bodies to be here.
+Investigation (15):  
 
 ## Gar's drunken rant
 *Where* first trip to the inn, or he finds them on day two
 *Questions* How, Who
 
-Gar rants that he saw the Wailing Reaper murder the party members by blasting them off the cliff. Dark cloak, skull for a face. He thinks the reaper knows he was spying on it, and has been killing his sheep ever since. He tells them Lysandre is working on a way to put the reaper to rest.
+Gar rants that he saw the Wailing Reaper murder the prior guild party by blasting them off the cliff. Dark cloak, skull for a face. He thinks the reaper knows he was spying on it, and has been killing his sheep ever since. He tells them Lysandre is working on a way to put the reaper to rest.
+
+If asked, Gar shows them the body of the latest victim. It has the same scorch marks as the bodies at the cliffside cave.
+
+Insight (any): Gar appears to believe everything he's saying, although his "expertise" on spirits is definitely in question.
+Persuasion or Intimidation (20): Gar will lead the party on a stakeout of where the Wailing Reaper has been killing his sheep. He insists on asking Lysandre for help with it.
 
 ## Lysandre's shop
 *Where* bookshop in town
@@ -75,7 +84,7 @@ Gar rants that he saw the Wailing Reaper murder the party members by blasting th
 
 Surprisingly well stocked for the size of the town. She apparently loves her incense, a compelling mix of bergamot and leather.
 
-Lysandre gives the party a breakdown of the local legend of the Wailing Reaper, and claims she's been researching a way to try to put it back to rest.
+Lysandre gives the party a breakdown of the [local legend of the Wailing Reaper](#anodea-the-wailing-reaper-legend), and claims she's been researching a way to try to put it back to rest. She thinks that someone following the reaper after it attacks the sheep might be able to pin down the source of its anger.
 
 Perception or Investigation (15): tucked away in a corner, you find a pack that seems to belong to the naval investigator. Lysandre hastily claims she found it during her research into the Wailing Reaper. She thinks the investigator may have angered the Reaper, and suspects she might be able to use some of his items to help put it to rest.
 
@@ -87,9 +96,9 @@ Perception or Investigation (20): peeking out from a high shelf, or maybe within
 
 If the party uses the dowsing rod to try to find the *other* Karn insignia, they get a very faint signal that leads them back to town. Spending time triangulating points towards this room.
 
-They find the insignia in a chest tucked behind a false wall in the cellar. Inside the chest they also find the packs of the previous adventurers, and a significant amount of gold.
+They find the insignia in a chest tucked away in the corner. Inside the chest they also find the packs of the previous guild members, and a significant amount of gold.
 
-## Barassus
+## Barassus's house
 *Where* his home in town
 *Questions* Why, Who
 
@@ -101,14 +110,14 @@ He also states that the taxes *were* loaded onto the other party's ship, which i
 *Where* the inn
 *Questions* Why, How
 
-Offhandedly mentions that the naval investigator said he was close to finishing his business and heading home. Wants the party to pay for the stay of the previous adventuring party, who seemed to have cleaned out their rooms and left overnight.
+Offhandedly mentions that the naval investigator said he was close to finishing his business and heading home. Wants the party to pay for the stay of the previous guild members, who seemed to have cleaned out their rooms and left overnight.
 
 ## Sanzir - journal recovery
 *Where* the inn
 *Questions* Who, Why, How
 *NOTE* only use this if the party is stalled
 
-She has an encoded journal the military investigator had hidden in his room. Deciphering it (Investigation: 15) gives the description of Lysandre as the runaway naval member. 
+Sanzir finds an encoded journal the military investigator had hidden in his room. Deciphering it (Investigation: 15) gives the description of Lysandre as the runaway naval member. 
 
 ## Wailing Reaper Stakeout
 *Where* the forests outside of town
@@ -120,9 +129,12 @@ Lysandre figures out the party is investigating in depth, and tries to throw the
 
 If the party is stalled, Gar fetches them in town after seeing the Reaper near his flock.
 
-The party sees Wailing Reaper kill one of Gar's sheep with a scyth. Gar cries out as seeing this, which causes the Reaper to attack the party.
+The party sees the Wailing Reaper kill one of Gar's sheep with a scyth. Gar cries out as seeing this, which causes the Reaper to attack the party. If Gar somehow isn't there, the Reaper heads in their direction "unprompted". (because Lysandre is directing it)
 
-Detect Magic: they determine that the skeleton was raised with animate dead
+After the party finishes the encounter, Lysandre says she thinks the skeleton is Anodea's, and the naval officer must have disturbed it while he was poking around.
+
+Detect Magic or Arcana (20): The skeleton was raised with animate dead
+Medicine (15): The skeleton looks too "new" to be Anodea. It's definitely not 100 years old.
 Perception (15): There's a lingering smell on the cloak that seems familiar from town, which they put together as Lysandre's shop if they return to it.
 Investigation (20): Taking the cloak into town and asking around finds someone who recognizes it as belonging to Lysandre
 
@@ -131,6 +143,8 @@ Investigation (20): Taking the cloak into town and asking around finds someone w
 *Questions* Who
 
 Barassus does confirm that the island did give its taxes to the original collectors, and that they were loaded onto their ship. The ship is now gone, and it's unlikely that the Wailing Reaper decided to cut it loose.
+
+Investigation (any): Rope is tied to the dock from the ship being tied up, and appears to have been cut *and burned*.
 
 # Notable locations
 
@@ -152,7 +166,7 @@ Gar has a small farmhouse just on the outskirts of town. It is spare and rustic,
 # People
 
 ## Lysandre / Amelie
-A friendly human woman with graying dark hair. Lysandre tends to ramble and wander off topic while answering questions. She describes herself as a "former adventurer" who always dreamed of running a bookshop that was more of an excuse to read and talk about books than an actual business.
+A friendly half-elven woman with graying dark hair. Lysandre tends to ramble and wander off topic while answering questions. She describes herself as a "former adventurer" who always dreamed of running a bookshop that was more of an excuse to read and talk about books than an actual business.
 
 ## Sanzir
 A jovial dwarven woman with copper colored hair. Sanzir has the easy comfortable manner common to many barkeeps, and is fiercely proud of her meat pies.
@@ -168,7 +182,7 @@ A sturdy half orc with green skin and dark hair. Gar is a bit shy, and very worr
 ## Anodea, the Wailing Reaper legend
 Likely the players will hear this from Lysandre, but they may end up getting it from another NPC.
 
-> About a century ago a woman lived in town named Anodea. She fell in love with a man named Garrett, and they soon married.
+> Over a century ago a woman lived in town named Anodea. She fell in love with a man named Garrett, and they soon married.
 >
 > Like now, like seemingly always, there was a war going on. Shortly after their marriage, before the two could start their life together, Garrett was conscripted.
 >
@@ -234,17 +248,23 @@ Lysandre focuses on using her Repelling Blast to knock PCs into shelves and try 
 After the first round she adopts her Form of Dread. After the second round she uses her book shield for the first time.
 
 ### Lysandre stat block
+Lysandre is *based on* a Warlock, but adjusted to fit the criteria for a CR4 monster. Most of her spells aren't particularly combat-useful, so her stat block is mostly based on Eldritch Blast and lair/legendary actions.
+
+If this combat happens outside her bookshop, she brings in another skeleton (claw attacks only) to help her.
+
 Stats:
-AC 12
-HP 66
+AC 14
+HP 110
 
 Warlock lvl 6
-str 9 (-1) dex 12 (+1) con 16 (+3) int 16 (+3) wis 12 (+1) cha 19 (+4)
+str 9 (-1) dex 12 (+1) con 16 (+3) int 16 (+3) wis 12 (+1) cha 21 (+5)
 
 Saving throws: Wis +5, Cha +7
 
-Spell save dc: 15
-Spell attack bonus: +7
+Spell save dc: 14
+Spell attack bonus: +5
+
+Skills: Deception (+9), History (+5), Arcana (+5), Investigation (+5)
 
 Pact of the Tome
 
@@ -257,11 +277,14 @@ Archfey
 ### Invocations
 Aspect of the Moon - no need to sleep, cannot be put to sleep
 Repelling Blast - Eldritch Blast can push back 10ft
+Agonizing Blast - Add Cha mod to EB damage
 Undying Servitude - cast Animate Dead 1/day without using a spell slot
 
 ### Spells
+She can cast 2 lvl1+ spells per short or long rest. All non-cantrips are cast at 3rd level.
+
 #### Cantrips
-- Eldritch Blast
+- Eldritch Blast (1d8+5, 2/turn)
 - Mage Hand
 - Minor Illusion
 

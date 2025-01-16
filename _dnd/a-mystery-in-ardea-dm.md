@@ -33,7 +33,15 @@ The core DnD books, plus Tasha's Cauldron of Everything and Xanathar’s Guide t
 
 Your character will have normal starting equipment for their class/background, 2 potions of healing, 1 potion of greater healing, an uncommon consumable item of your choice, and an uncommon permanent item of your choice.
 
-The party has been sent with a divination rod that points to the magical seals used to identify all members of the Hands of Karn.
+The party has been sent with a dowsing rod that points to the magical seals used to identify all members of the Hands of Karn.
+
+# Intro
+> Your party is an investigation team within the Hands of Karn. A pair of guild members sent to collect taxes from Ardea is now a week overdue. Attempts to Scry them indicate the group is still on the island, but have not been able to provide more useful details.
+>
+> We start as your party arrives at the island, tasked with returning with the guild members and the taxes they were sent to collect. As members of the Hands of Karn you can expect the town to cooperate with your search, and are authorized to detain anyone you deem responsible for later trial.
+>
+> The guild has instructed you that Barassus, the town elder, can probably help you get your investigation started. They also have given you a dowsing rod tuned to the Hands of Karn seal, which should help you in pinpointing the members of the previous guild party. 
+
 
 # Mystery Breakdown
 Another party from the same adventurer's guild was sent to the island, and did not return. They were murdered by being pushed off a cliff, as was an unidentified Caledonian Naval officer. This all appears to be the work of Wailing Reaper, a vengeful spirit of local legend that appears to have grown active recently.
@@ -65,7 +73,7 @@ The dowsing rod will point them towards this. If the party doesn't think to use 
 
 History (20): They identify the insignia on the naval officer's corpose as a naval investigator.
 Nature (10): The tide patterns washed everyone into this cave. Based on the contents of the cave it apparently fills up with debris until a storm clears it out. It's likely that nobody knows or expected these bodies to be here.
-Investigation (15):  
+Investigation (15): They find a key in the naval officer's pocket. If or when they get a room from Sanzir they can tell that it's the kind she uses for rooms at her inn. 
 
 ## Gar's drunken rant
 *Where* first trip to the inn, or he finds them on day two
@@ -110,7 +118,7 @@ He also states that the taxes *were* loaded onto the other party's ship, which i
 *Where* the inn
 *Questions* Why, How
 
-Offhandedly mentions that the naval investigator said he was close to finishing his business and heading home. Wants the party to pay for the stay of the previous guild members, who seemed to have cleaned out their rooms and left overnight.
+Offhandedly mentions that the naval investigator said he was close to finishing his business and excited to head home. If they identify themselves, she wants the party to pay for the stay of the previous guild members, who seemed to have cleaned out their rooms and left overnight.
 
 ## Sanzir - journal recovery
 *Where* the inn
@@ -131,7 +139,9 @@ If the party is stalled, Gar fetches them in town after seeing the Reaper near h
 
 The party sees the Wailing Reaper kill one of Gar's sheep with a scyth. Gar cries out as seeing this, which causes the Reaper to attack the party. If Gar somehow isn't there, the Reaper heads in their direction "unprompted". (because Lysandre is directing it)
 
-After the party finishes the encounter, Lysandre says she thinks the skeleton is Anodea's, and the naval officer must have disturbed it while he was poking around.
+After the party finishes the encounter, Lysandre says she thinks the skeleton is Anodea's, and the naval officer must have disturbed it while he was poking around. She says she is happy the spirit has been dealt with, and immediately leaves for town.
+
+After the party and Lysandre have parted ways, you notice that the cloak it is wearing is *definitely* not 100 years old. 
 
 Detect Magic or Arcana (20): The skeleton was raised with animate dead
 Medicine (15): The skeleton looks too "new" to be Anodea. It's definitely not 100 years old.

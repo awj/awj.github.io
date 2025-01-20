@@ -247,15 +247,17 @@ After the party figures out that Lysandre is behind all of this, she runs to her
 She gets 1 legendary action per round.
 
 * Legendary action: A book flies at one of the players, she performs a spell attack for 1d4 bludgeoning damage.
-* Lair action: (3/Day) she surrounds herself in a flying cylinder of books that disrupts attacks. Attacks have disadvantage against her until the first attack roll fails. Attacks with fire damage set the books on fire, dealing 1d6 damage to her and everyone within 5 feet. When she performs an attack roll a d20, on a 5 or lower she disrupts the books.
-* Legendary action: (PC against a shelf) An avalanche of books flies off the shelf. The PC needs to make a Dexterity save against her spell save DC, with failure dealing 2d4 bludgeoning damage and knocking the character prone. A successful save results in half damage and moves the character to a nearby open space.
-* Loose books shift ahead of her to allow free movement.
+* Legendary action: (PC against a shelf) An avalanche of books flies off the shelf. The PC needs to make a Dexterity save against her spell save DC, with failure dealing 1d10 bludgeoning damage and knocking the character prone. A successful save results in half damage and moves the character to a nearby open space. This action may *only* be performed against the PC that just finished their turn.
 
-Piles of books from her shelf avalanche ability will move underneath players crossing them, and require a DC 15 Acrobatics check to navigate without getting stuck for the round.
+Lair actions:
+* The bookshelves move to reconfigure themselves. They will put themselves between her and the players, but do not create a situation where she is completely inaccessible.
+* (3/Day) she surrounds herself in a flying cylinder of books that disrupts attacks. Attacks have disadvantage against her until the first attack roll fails. Attacks with fire damage set the books on fire, dealing 1d6 damage to her and everyone within 5 feet. When she performs an attack roll a d20, on a 5 or lower she disrupts the books.
+
+If the players choose to attack *the bookshelves*, she receives the same amount of damage they deal. Each shelf has an AC of 12 and 10 hit points. Shelves that have been "killed" stop moving and no longer support the avalanche ability.
 
 Lysandre focuses on using her Repelling Blast to knock PCs into shelves and try to hit them with books. If cornered she will use Misty Step to try to escape.
 
-After the first round she adopts her Form of Dread. After the second round she uses her book shield for the first time.
+After the second round she uses her book shield for the first time.
 
 ### Lysandre stat block
 Lysandre is *based on* a Warlock, but adjusted to fit the criteria for a CR4 monster. Most of her spells aren't particularly combat-useful, so her stat block is mostly based on Eldritch Blast and lair/legendary actions.
@@ -263,7 +265,7 @@ Lysandre is *based on* a Warlock, but adjusted to fit the criteria for a CR4 mon
 If this combat happens outside her bookshop, she brings in another skeleton (claw attacks only) to help her.
 
 Stats:
-AC 14
+AC 13
 HP 110
 
 Warlock lvl 6

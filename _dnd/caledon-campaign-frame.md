@@ -113,6 +113,13 @@ The islands of Caledon float on the detached caps of an enormous undersea mushro
 
 # Campaign Mechanics
 
+## Ship travel
+Ship travel will be a prominent feature in most Caledon campaigns. Use these rules to handle ship movement, but only for cases where it has narrative meaning. Assume that in decent weather with no complications players are able to operate ships without issue.
+
+When rolls are needed, ship travel is handled as a group action roll with the helmsman making the roll. Ships that are not "fully manned" (GM discretion) either are not able to travel or do so at disadvantage.
+
+The base difficulty for the roll is determined by *the ship*, with larger ships having a higher difficulty. From that base, the 
+
 # Session Zero Questions
 
 *Ask any of these questions to your players, or make your own.*

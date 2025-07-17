@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Adam Jones</title>
+    <meta name="description" content="I enjoy finding creative solutions to hard problems.">
+    <meta name="viewport' content='width=device-width, minimal-ui">
+
+    <style type="text/css">
+      body {
+          font-family: Verdana, sans-serif;
+      }
+
+      address {
+          display: flex;
+          flex-direction: column;
+          font-style: normal;
+      }
+
+      header {
+          display: flex;
+          flex-wrap: nowrap;
+      }
+
+      a {
+          color: darkblue;
+      }
+
+      header h1, header h3 {
+          flex: 1;
+          margin: 0;
+          align-self: flex-end;
+      }
+
+      header h3 {
+          align-self: flex-start;
+      }
+
+      section h2 {
+          color: #008080;
+          border-bottom: 2px solid #008080;
+      }
+
+      dl.skill {
+          display: block;
+
+          &>* {
+              display: inline;
+          }
+
+          dt {
+              font-weight: bold;
+          }
+
+          dd {
+              margin: 0;
+          }
+
+          dt:after {
+              content: ":"
+          }
+
+          dd:after {
+              content: ", "
+          }
+
+          dd:last-child:after {
+              content: "."
+          }
+      }
+
+      dl.experience {
+          dt {
+              font-style: italic;
+          }
+
+          dd {
+              margin-top: 5px;
+              display: list-item;
+              list-style-type: "- ";
+          }
+      }
+
+      aside.organization {
+          display: flex;
+          flex-direction: column;
+      }
+
+      section.experience section aside {
+          flex-basis: 200px;
+          text-align: right;
+      }
+
+      section.education section aside {
+          flex-basis: 400px;
+          text-align: right;
+      }
+
+      section.experience > section + section {
+          margin-top: 20px;
+      }
+    </style>
+
+    <style type="text/css" media="screen">
+      body {
+          max-width: 800px;
+          margin: 0 auto;
+      }
+    </style>
+
+    <style type="text/css" media="print">
+      body: {
+          margin: 0;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <h1>Adam Jones</h1>
+      <address>
+        <a class="email" href="mailto:ajones1@gmail.com">ajones1@gmail.com</a>
+        <a href='https://awj.dev'>https://awj.dev</a>
+        <span class='address'>Helena, Montana</span>
+      </address>
+    </header>
+
+    <section>
+      <p>I enjoy finding creative solutions to hard problems.
+    </section>
+
+    <section>
+      <h2>Proficiencies</h2>
+      <dl class="skill">
+        <dt>Frontend</dt>
+        <dd>React</dd>
+        <dd>HTML</dd>
+        <dd>CSS</dd>
+        <dd>Javascript</dd>
+      </dl>
+      <dl class="skill">
+        <dt>Backend</dt>
+        <dd>Ruby</dd>
+        <dd>Ruby on Rails</dd>
+        <dd>MySQL</dd>
+        <dd>Elasticsearch</dd>
+        <dd>Sidekiq</dd>
+        <dd>Cassandra</dd>
+        <dd>Redis</dd>
+        <dd>Datadog APM</dd>
+      </dl>
+      <dl class="skill">
+        <dt>AWS</dt>
+        <dd>EC2</dd>
+        <dd>S3</dd>
+        <dd>RDS</dd>
+      </dl>
+      <dl class="skill">
+        <dt>Hobby languages</dt>
+        <dd>Elixir</dd>
+        <dd>Lisp</dd>
+        <dd>Haskell</dd>
+        <dd>Rust</dd>
+      </dl>
+    </section>
+
+    <section class="experience">
+      <h2>Experience</h2>
+      <section>
+        <header>
+          <h3>Senior Software Engineer</h3>
+          <aside class="organization">
+            <span class="company">Kit</span>
+            <span class="date"><time datetime="2018-01-22">Jan 2018</time> &mdash;
+              Present</span>
+          </aside>
+        </header>
+        <p>Kit is an email marketing platform focused on content creators.</p>
+        <dl class="experience">
+          <dt>Refactoring</dt>
+          <dd>Led a project that rebuilt core-of-business email sending code. We improved performance, reliability, correctness, and business flexibility with zero downtime.</dd>
+          <dd>Extracted link click tracking functionality into its own service with no user-facing interruptions.</dd>
+          <dd>Redesigned Sequence email feature code to enable a variety of performance optimizations.</dd>
+        </dl>
+        <dl class="experience">
+          <dt>Application Performance</dt>
+          <dd>Regularly solved MySQL performance problems, often with 10/100x performance improvements and significant stability improvements.</dd>
+          <dd>Led a project to improve "performance as user experience", resulting in organization-wide reductions in response times and timeouts.</dd>
+          <dd>Redesigned database layout for Sequence email feature, halving query times and eliminating the need for a dedicated replica database.</dd>
+          <dd>Migrated MySQL-based email activity tracking to Elasticsearch, scaled out to 2.5 billion emails/month (~150bn total records).</dd>
+          <dd>Designed indexes to optimize SQL queries, including using Github's gh-ost tool for online schema migration.</dd>
+        </dl>
+        <dl class="experience">
+          <dt>Cross-Team Collaboration</dt>
+          <dd>Regularly worked with product and design teams for successful feature planning.</dd>
+          <dd>Worked with account managers to define and generate specialized usage reports for large accounts.</dd>
+          <dd>Gathered requirements and pitched projects to support our account migrations team.</dd>
+        </dl>
+        <dl class="experience">
+          <dt>Software Quality</dt>
+          <dd>Principal contributor and maintainer for core-of-business email sending code.</dd>
+          <dd>Performed multiple Rails and Ruby migrations for 150kloc Rails application.</dd>
+          <dd>Frequent pairing sessions to share domain knowledge and seek better designs.</dd>
+          <dd>Popularized use of TDD for introducing regression tests in response to bugs.</dd>
+          <dd>Regularly successful at deducing bugs from user reports and data analysis.</dd>
+        </dl>
+        <dl class="experience">
+          <dt>Operations & On-Call</dt>
+          <dd>Participated in engineering on-call rotation.</dd>
+          <dd>Helped devise and refine incident response processes.</dd>
+          <dd>Frequently worked with infrastructure team to address system-wide issues.</dd>
+          <dd>Championed use of pair programming practices during emergency response to avoid exacerbating issues.</dd>
+        </dl>
+        <dl class="experience">
+          <dt>Teaching & Leadership</dt>
+          <dd>Regularly gave organization-wide project presentations.</dd>
+          <dd>Consistently conducted engineering team educational presentations.</dd>
+          <dd>Contributed technical discussion to the company engineering blog.</dd>
+          <dd>Frequent pairing and teaching on refactoring, performance optimization, and designing for stability.</dd>
+          <dd>Helped define and revise engineering interview process.</dd>
+        </dl>
+        <dl class="experience">
+          <dt>Additional Projects</dt>
+          <dd>Built asynchronous data syncing, reporting, and chart visualization for 600+ million subscribers using Elasticsearch.</dd>
+          <dd>Led a project to optimize importing email lists, resulting in 10x performance improvements and reusable data ingestion tooling.</dd>
+        </dl>
+      </section>
+
+      <section>
+        <header>
+          <h3>Engineering Manager</h3>
+          <aside class="organization">
+            <span class="company">Trimble, Inc</span>
+            <span class="date">
+              <time datetime="2016-04-21">Apr 2016</time> &mdash;
+              <time datetime="2018-01-18">Jan 2018</time>
+            </span>
+          </aside>
+        </header>
+        <p>Trimble is a GPS and geospatial hardware and software company. My department primarily worked on a storage and processing service for massive geospatial datasets.</p>
+        <dl class="experience">
+          <dt>Collaboration and Project Management</dt>
+          <dd>Guided geospatial storage service through rebrand project. Including Product and Design team coordination, project planning, team management, and direct programming work.</dd>
+          <dd>Oversaw multiple integration projects with other teams inside the company.</dd>
+          <dd>Conducted requirements interviews for ongoing integration support.</dd>
+        </dl>
+        <dl class="experience">
+          <dt>Organization & Leadership</dt>
+          <dd>Designed and executed hiring process.</dd>
+          <dd>Conducted performance reviews and advised on review process changes.</dd>
+          <dd>Oversaw ongoing revisions to development and planning processes.</dd>
+          <dd>Instituted formal code review process to improve software quality.</dd>
+        </dl>
+      </section>
+      <section>
+        <header>
+          <h3>Software Engineer</h3>
+          <aside class="organization">
+            <span class="company">Trimble, Inc</span>
+            <span class="date">
+              <time datetime="2009-03-12">Mar 2009</time> &mdash;
+              <time datetime="2016-04-21">Apr 2016</time>
+            </span>
+          </aside>
+        </header>
+        <dl class="experience">
+          <dt>Development Principles</dt>
+          <dd>Introduced continuous integration testing.</dd>
+          <dd>Introduced application performance monitoring.</dd>
+          <dd>Revamped emergency bug fix process from ephemeral live server edits to persistent build/deploy cycling.</dd>
+          <dd>Led long-term project to expand test coverage (10% -> 80% coverage).</dd>
+          <dd>Finished multiple incomplete tool transition projects (haml -> erb, Test::Unit -> rspec).</dd>
+        </dl>
+        <dl class="experience">
+          <dt>Operations & On Call</dt>
+          <dd>Participated in infrastructure and engineering on-call rotations.</dd>
+          <dd>Responsible for infrastructure design, implementation, and maintenance.</dd>
+        </dl>
+        <dl class="experience">
+          <dt>Application Performance</dt>
+          <dd>Profiled and implemented database optimizations to resolve performance issues (index addition/removal, column type selection).</dd>
+          <dd>Revised Apache and Ruby (garbage collector) configuration for performance improvements.</dd>
+          <dd>Optimized user experience by moving work out of the request path and into background jobs.</dd>
+        </dl>
+        <dl class="experience">
+          <dt>Additional Projects and Achievements</dt>
+          <dd>Principal implementer for 'geospatial data marketplace' feature, including payment integration.</dd>
+          <dd>Rebuilt file upload mechanism for 100/1000x performance improvements (2 hours -&gt; &lt;10 seconds).</dd>
+          <dd>Principal designer and implementer for API abstractions around geospatial ETL pipelines.</dd>
+          <dd>Oversaw core database migration from MySQL to PostgreSQL.</dd>
+          <dd>Planned, implemented, and completed a zero-downtime switch from Solr to Elasticsearch.</dd>
+          <dd>Contributor towards a web map tile system capable of layering, caching, monitoring, usage tracking, and secure end-user distribution on top of upstream providers.</dd>
+          <dd>Worked with designer on redesign of pre-acquisition application (WeoGeo).</dd>
+          <dd>Self-taught Ruby (and Rails) to participate in web development efforts. Eventually became team lead for web development.</dd>
+        </dl>
+      </section>
+    </section>
+
+    <section class="education">
+      <h2>Education</h2>
+      <section>
+        <header>
+          <h3>Portland State University</h3>
+          <aside>
+            <div>Bachelor of Science - Computer Science</div>
+            <span class="date"><time datetime="2009-09">2009</time></span>
+          </aside>
+        </header>
+        <dl class="skill">
+          <dt>Focuses</dt>
+          <dd>Database internals</dd>
+          <dd>Compilers</dd>
+          <dd>Operating systems</dd>
+          <dd>Functional programming</dd>
+          <dd>Parallel programming</dd>
+        </dl>
+      </section>
+    </section>
+
+  </body>
+</html>

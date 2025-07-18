@@ -87,7 +87,7 @@
       }
 
       section.experience section aside {
-          flex-basis: 200px;
+          flex-basis: 300px;
           text-align: right;
       }
 
@@ -178,22 +178,23 @@
         <p>Kit is an email marketing platform focused on content creators.</p>
         <dl class="experience">
           <dt>Refactoring</dt>
-          <dd>Led a project that rebuilt core-of-business email sending code. We improved performance, reliability, correctness, and business flexibility with zero downtime.</dd>
-          <dd>Extracted link click tracking functionality into its own service with no user-facing interruptions.</dd>
-          <dd>Redesigned Sequence email feature code to enable a variety of performance optimizations.</dd>
+          <dd>Led a project to rebuild core-of-business email sending code. We improved performance, reliability, correctness, and business flexibility with no downtime.</dd>
+          <dd>Extracted high-volume link click tracking to its own service, improving relability and security.</dd>
+          <dd>Redesigned Sequence email feature for observability and performance improvements.</dd>
         </dl>
         <dl class="experience">
           <dt>Application Performance</dt>
-          <dd>Regularly solved MySQL performance problems, often with 10/100x performance improvements and significant stability improvements.</dd>
-          <dd>Led a project to improve "performance as user experience", resulting in organization-wide reductions in response times and timeouts.</dd>
-          <dd>Redesigned database layout for Sequence email feature, halving query times and eliminating the need for a dedicated replica database.</dd>
+          <dd>Regularly solved stability-compromising MySQL query and access problems.</dd>
+          <dd>Led an application-wide performance project, significantly reducing page response times and timeouts.</dd>
+          <dd><a href="https://engineering.kit.com/2019/11/12/refactoring-sequences/">Redesigned the database layout for the Sequence email feature</a>, halving query times and eliminating the need for a dedicated replica database.</dd>
           <dd>Migrated MySQL-based email activity tracking to Elasticsearch, scaled out to 2.5 billion emails/month (~150bn total records).</dd>
           <dd>Designed indexes to optimize SQL queries, including using Github's gh-ost tool for online schema migration.</dd>
+          <dd>Revised and rewrote SQL queries to address suboptimal query plans.</dd>
         </dl>
         <dl class="experience">
           <dt>Cross-Team Collaboration</dt>
           <dd>Regularly worked with product and design teams for successful feature planning.</dd>
-          <dd>Worked with account managers to define and generate specialized usage reports for large accounts.</dd>
+          <dd>Worked with account managers to fulfill specialized usage reports for large accounts.</dd>
           <dd>Gathered requirements and pitched projects to support our account migrations team.</dd>
         </dl>
         <dl class="experience">
@@ -216,7 +217,7 @@
           <dd>Regularly gave organization-wide project presentations.</dd>
           <dd>Consistently conducted engineering team educational presentations.</dd>
           <dd>Contributed technical discussion to the company engineering blog.</dd>
-          <dd>Frequent pairing and teaching on refactoring, performance optimization, and designing for stability.</dd>
+          <dd>Frequent pairing and teaching on refactoring, performance optimization, and reliabiity.</dd>
           <dd>Helped define and revise engineering interview process.</dd>
         </dl>
         <dl class="experience">
@@ -240,7 +241,7 @@
         <p>Trimble is a GPS and geospatial hardware and software company. My department primarily worked on a storage and processing service for massive geospatial datasets.</p>
         <dl class="experience">
           <dt>Collaboration and Project Management</dt>
-          <dd>Guided geospatial storage service through rebrand project. Including Product and Design team coordination, project planning, team management, and direct programming work.</dd>
+          <dd>Guided geospatial storage service through post-acquisition rebrand, working with product and design teams to improve functionality.</dd>
           <dd>Oversaw multiple integration projects with other teams inside the company.</dd>
           <dd>Conducted requirements interviews for ongoing integration support.</dd>
         </dl>
@@ -256,7 +257,7 @@
         <header>
           <h3>Software Engineer</h3>
           <aside class="organization">
-            <span class="company">Trimble, Inc</span>
+            <span class="company">WeoGeo (acquired by Trimble, Inc)</span>
             <span class="date">
               <time datetime="2009-03-12">Mar 2009</time> &mdash;
               <time datetime="2016-04-21">Apr 2016</time>
@@ -267,7 +268,7 @@
           <dt>Development Principles</dt>
           <dd>Introduced continuous integration testing.</dd>
           <dd>Introduced application performance monitoring.</dd>
-          <dd>Revamped emergency bug fix process from ephemeral live server edits to persistent build/deploy cycling.</dd>
+          <dd>Replaced live patching with build/deploy for emergency bug fix process.</dd>
           <dd>Led long-term project to expand test coverage (10% -> 80% coverage).</dd>
           <dd>Finished multiple incomplete tool transition projects (haml -> erb, Test::Unit -> rspec).</dd>
         </dl>
@@ -278,20 +279,20 @@
         </dl>
         <dl class="experience">
           <dt>Application Performance</dt>
-          <dd>Profiled and implemented database optimizations to resolve performance issues (index addition/removal, column type selection).</dd>
-          <dd>Revised Apache and Ruby (garbage collector) configuration for performance improvements.</dd>
-          <dd>Optimized user experience by moving work out of the request path and into background jobs.</dd>
+          <dd>Conducted database optimizations to resolve performance issues.</dd>
+          <dd>Reconfigured Nginx and Ruby (garbage collector) for performance improvements.</dd>
+          <dd>Optimized user experience by moving work out of the request path.</dd>
         </dl>
         <dl class="experience">
           <dt>Additional Projects and Achievements</dt>
-          <dd>Principal implementer for 'geospatial data marketplace' feature, including payment integration.</dd>
-          <dd>Rebuilt file upload mechanism for 100/1000x performance improvements (2 hours -&gt; &lt;10 seconds).</dd>
+          <dd>Principal implementer for 'geospatial data marketplace', including payment integration.</dd>
+          <dd>Rebuilt file upload tool for 1000x performance improvements (2 hours -&gt; &lt;10 seconds).</dd>
           <dd>Principal designer and implementer for API abstractions around geospatial ETL pipelines.</dd>
           <dd>Oversaw core database migration from MySQL to PostgreSQL.</dd>
           <dd>Planned, implemented, and completed a zero-downtime switch from Solr to Elasticsearch.</dd>
           <dd>Contributor towards a web map tile system capable of layering, caching, monitoring, usage tracking, and secure end-user distribution on top of upstream providers.</dd>
           <dd>Worked with designer on redesign of pre-acquisition application (WeoGeo).</dd>
-          <dd>Self-taught Ruby (and Rails) to participate in web development efforts. Eventually became team lead for web development.</dd>
+          <dd>Self-taught Ruby and Rails to join web development team. Rose to team lead.</dd>
         </dl>
       </section>
     </section>
